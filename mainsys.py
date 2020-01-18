@@ -11,7 +11,7 @@ while(True):
     converted_price, title = check_price(URL, headers)
     if converted_price <= target_price:
         send_mail(URL, title)
-    time.sleep(86400)
+    time.sleep(86400) #86400 seconds in day
 
 
 
